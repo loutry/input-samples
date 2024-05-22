@@ -7,11 +7,13 @@ List<String> dirs = [
         'main']     // main sample code; look here for the interesting stuff.
 
 android {
-    compileSdkVersion 28
+    namespace 'com.example.android.autofill.app'
+
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 26
-        targetSdkVersion 28
+        targetSdkVersion 34
     }
 
     compileOptions {
